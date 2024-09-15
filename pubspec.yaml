@@ -1,0 +1,33 @@
+name: easy_academy
+description: "Arabic LMS Modern Education Platform"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  appwrite: ^12.0.4
+  bloc: ^8.1.4
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+  hive: ^2.2.3
+  buttons_tabbar: ^1.3.13
+  url_launcher: ^6.3.0
+  device_preview: ^1.2.0
+  carousel_slider: ^5.0.0
+  unicons: ^3.0.0
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo-bg.png

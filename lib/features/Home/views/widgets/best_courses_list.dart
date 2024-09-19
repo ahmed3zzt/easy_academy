@@ -64,7 +64,6 @@ class BestCoursesList extends StatelessWidget {
                   textDirection: TextDirection.rtl,
                   style: TextStyle(color: Constants.mainColor),
                 ),
-                const SizedBox(height: 10,),
                 const Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Row(
